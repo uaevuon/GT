@@ -1,0 +1,279 @@
+mobilenetv3-freeze.pth(except classfier) lr=0.001
+
+Epoch 1/10
+----------
+C:\Users\yaong\anaconda3\envs\label-studio\Lib\site-packages\PIL\Image.py:1000: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Loss: 0.0774
+Epoch 2/10
+----------
+Loss: 0.0466
+Epoch 3/10
+----------
+Loss: 0.0425
+Epoch 4/10
+----------
+Loss: 0.0396
+Epoch 5/10
+----------
+Loss: 0.0373
+Epoch 6/10
+----------
+Loss: 0.0356
+Epoch 7/10
+----------
+Loss: 0.0336
+Epoch 8/10
+----------
+Loss: 0.0320
+Epoch 9/10
+----------
+Loss: 0.0305
+Epoch 10/10
+----------
+Loss: 0.0288
+Training complete
+
+Test Accuracy: 0.4127
+Precision: 0.7801, Recall: 0.4312, F1-Score: 0.5216
+
+
+mobilenetv3-freeze-val10.pth
+
+Epoch 1/10
+C:\Users\yaong\anaconda3\envs\label-studio\Lib\site-packages\PIL\Image.py:1000: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train Loss: 0.0822
+Validation Loss: 0.0514
+Epoch 2/10
+Train Loss: 0.0478
+Validation Loss: 0.0448
+Epoch 3/10
+Train Loss: 0.0432
+Validation Loss: 0.0432
+Epoch 4/10
+Train Loss: 0.0400
+Validation Loss: 0.0428
+Epoch 5/10
+Train Loss: 0.0382
+Validation Loss: 0.0404
+Epoch 6/10
+Train Loss: 0.0360
+Validation Loss: 0.0393
+Epoch 7/10
+Train Loss: 0.0347
+Validation Loss: 0.0389
+Epoch 8/10
+Train Loss: 0.0320
+Validation Loss: 0.0392
+Epoch 9/10
+Train Loss: 0.0317
+Validation Loss: 0.0388
+Epoch 10/10
+Train Loss: 0.0296
+Validation Loss: 0.0379
+----------
+Training complete
+
+Test Accuracy: 0.3914
+Precision: 0.7362, Recall: 0.3978, F1-Score: 0.4836
+Epoch 1/10
+C:\Users\yaong\anaconda3\envs\label-studio\Lib\site-packages\PIL\Image.py:1000: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train Loss: 0.0281
+Validation Loss: 0.0371
+Epoch 2/10
+Train Loss: 0.0267
+Validation Loss: 0.0370
+Epoch 3/10
+Train Loss: 0.0256
+Validation Loss: 0.0374
+Epoch 4/10
+Train Loss: 0.0242
+Validation Loss: 0.0366
+Epoch 5/10
+Train Loss: 0.0227
+Validation Loss: 0.0394
+Epoch 6/10
+Train Loss: 0.0218
+Validation Loss: 0.0361
+Epoch 7/10
+Train Loss: 0.0199
+Validation Loss: 0.0370
+Epoch 8/10
+Train Loss: 0.0187
+Validation Loss: 0.0371
+Epoch 9/10
+Train Loss: 0.0176
+Validation Loss: 0.0379
+Epoch 10/10
+Train Loss: 0.0170
+Validation Loss: 0.0375
+----------
+Training complete
+
+
+
+
+
+mobilenetv3-freeze-val20
+
+Epoch 1/10
+C:\Users\yaong\anaconda3\envs\label-studio\Lib\site-packages\PIL\Image.py:1000: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train Loss: 0.0822
+Validation Loss: 0.0514
+Epoch 2/10
+Train Loss: 0.0478
+Validation Loss: 0.0448
+Epoch 3/10
+Train Loss: 0.0432
+Validation Loss: 0.0432
+Epoch 4/10
+Train Loss: 0.0400
+Validation Loss: 0.0428
+Epoch 5/10
+Train Loss: 0.0382
+Validation Loss: 0.0404
+Epoch 6/10
+Train Loss: 0.0360
+Validation Loss: 0.0393
+Epoch 7/10
+Train Loss: 0.0347
+Validation Loss: 0.0389
+Epoch 8/10
+Train Loss: 0.0320
+Validation Loss: 0.0392
+Epoch 9/10
+Train Loss: 0.0317
+Validation Loss: 0.0388
+Epoch 10/10
+Train Loss: 0.0296
+Validation Loss: 0.0379
+----------
+Training complete
+
+Test Accuracy: 0.3914
+Precision: 0.7362, Recall: 0.3978, F1-Score: 0.4836
+Epoch 1/10
+C:\Users\yaong\anaconda3\envs\label-studio\Lib\site-packages\PIL\Image.py:1000: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train Loss: 0.0281
+Validation Loss: 0.0371
+Epoch 2/10
+Train Loss: 0.0267
+Validation Loss: 0.0370
+Epoch 3/10
+Train Loss: 0.0256
+Validation Loss: 0.0374
+Epoch 4/10
+Train Loss: 0.0242
+Validation Loss: 0.0366
+Epoch 5/10
+Train Loss: 0.0227
+Validation Loss: 0.0394
+Epoch 6/10
+Train Loss: 0.0218
+Validation Loss: 0.0361
+Epoch 7/10
+Train Loss: 0.0199
+Validation Loss: 0.0370
+Epoch 8/10
+Train Loss: 0.0187
+Validation Loss: 0.0371
+Epoch 9/10
+Train Loss: 0.0176
+Validation Loss: 0.0379
+Epoch 10/10
+Train Loss: 0.0170
+Validation Loss: 0.0375
+----------
+Training complete
+
+
+Test Accuracy: 0.4221
+Precision: 0.7576, Recall: 0.4657, F1-Score: 0.5432
+
+Test Accuracy: 0.4119
+Precision: 0.7572, Recall: 0.4409, F1-Score: 0.5337
+
+
+
+
+
+
+mobilenetv3-nofreeze.pth lr=0.001
+
+Epoch 1/10
+----------
+C:\Users\yaong\anaconda3\envs\label-studio\Lib\site-packages\PIL\Image.py:1000: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Loss: 0.0716
+Epoch 2/10
+----------
+Loss: 0.0375
+Epoch 3/10
+----------
+Loss: 0.0290
+Epoch 4/10
+----------
+Loss: 0.0232
+Epoch 5/10
+----------
+Loss: 0.0193
+Epoch 6/10
+----------
+Loss: 0.0153
+Epoch 7/10
+----------
+Loss: 0.0130
+Epoch 8/10
+----------
+Loss: 0.0106
+Epoch 9/10
+----------
+Loss: 0.0088
+Epoch 10/10
+----------
+Loss: 0.0077
+Training complete
+
+Test Accuracy: 0.5667
+Precision: 0.8049, Recall: 0.5940, F1-Score: 0.6606
+
+
+mobilenetv3-nofreeze-val.pth lr=0.001
+
+Epoch 1/10
+C:\Users\yaong\anaconda3\envs\label-studio\Lib\site-packages\PIL\Image.py:1000: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Train Loss: 0.0750
+Validation Loss: 0.0526
+Epoch 2/10
+Train Loss: 0.0394
+Validation Loss: 0.0401
+Epoch 3/10
+Train Loss: 0.0306
+Validation Loss: 0.0342
+Epoch 4/10
+Train Loss: 0.0237
+Validation Loss: 0.0358
+Epoch 5/10
+Train Loss: 0.0193
+Validation Loss: 0.0370
+Epoch 6/10
+Train Loss: 0.0163
+Validation Loss: 0.0360
+Epoch 7/10
+Train Loss: 0.0133
+Validation Loss: 0.0487
+Epoch 8/10
+Train Loss: 0.0106
+Validation Loss: 0.0446
+Early stopping after 8 epochs
+----------
+Training complete
+
+Test Accuracy: 0.5307
+Precision: 0.8386, Recall: 0.5452, F1-Score: 0.6180
+
