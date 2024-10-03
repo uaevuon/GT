@@ -2,7 +2,7 @@ import os
 import json
 import shutil
 
-tag = '아라벨'
+tag = 'm.99'
 
 # Function to extract tags from a JSON file
 def extract_tags(json_file):
